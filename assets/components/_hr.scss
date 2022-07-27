@@ -1,0 +1,18 @@
+.hr{
+    &__item{
+        display: flex;
+        justify-content: space-between;
+    }
+    &__info{
+        display: flex;
+    }
+    &__top{
+        display: flex;
+    }
+    &__conditions{
+        display: flex;
+    }
+    &__tags{
+        display: flex;
+    }
+}
