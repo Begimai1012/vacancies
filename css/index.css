@@ -32,6 +32,9 @@ button {
   width: 100%;
 }
 
+.hr {
+  padding-top: 84px;
+}
 .hr__item {
   display: flex;
   justify-content: space-between;
@@ -47,4 +50,17 @@ button {
 }
 .hr__tags {
   display: flex;
+}
+.hr__avatar {
+  width: 100px;
+  height: 100px;
+  background: #000000;
+  border-radius: 100%;
+  margin-right: 26px;
+}
+.hr__company-name {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 14px;
+  color: #699B9A;
 }/*# sourceMappingURL=index.css.map */
