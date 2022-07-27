@@ -1,6 +1,21 @@
-@mixin font($weight,$size,$l-height,$color){
+@mixin font($weight,$size,$color){
 
 font-weight: $weight;
 font-size: $size;
-line-height: $l-height;
 color: $color}
+
+@mixin widheight($width,$height){
+width: $width;
+height: $height;
+}
+
+@mixin flex-center(){
+display: flex;
+align-items: center;
+justify-content: center;
+}
+
+@mixin top-bot($top,$bottom){
+margin-top:$top;
+margin-bottom: $bottom;
+}
